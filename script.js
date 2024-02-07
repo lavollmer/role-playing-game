@@ -4,3 +4,5 @@ let xp = 0;
 let health = 100;
 let gold = 50;
 let currentWeapon = 0;
+// An array can be used to hold multiple values.
+let inventory = ["stick", "dagger", "sword"];
