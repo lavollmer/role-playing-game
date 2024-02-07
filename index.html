@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RPG - Dragon Repeller</title>
     <link src="stylesheet" />
-    <script src="./script.js"></script>
   </head>
   <body>
     <div id="game">
@@ -23,9 +22,15 @@
           >Gold: <strong><span id="goldText">50</span></strong></span
         >
       </div>
-      <div id="controls"></div>
+      <div id="controls">
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Fight dragon</button>
+      </div>
       <div id="monsterStats"></div>
       <div id="text"></div>
     </div>
+    <!-- This means your code runs after the browser has finished reading the HTML, and your document.querySelector() will see the button - because the browser has processed it yet. -->
+    <script src="./script.js"></script>
   </body>
 </html>
