@@ -41,6 +41,12 @@ const locations = [
     "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store.",
   },
+  {
+    name: "cave",
+    "button text": ["Fight slime", "Fight fanged beast", "Go to town square"],
+    "button functions": [fightSlime, fightBeast, goTown],
+    text: "You enter the cave. You see some monsters.",
+  },
 ];
 
 function update(location) {
@@ -63,6 +69,22 @@ function goStore() {
   update(locations[1]);
 }
 
+function goCave() {
+  update(locations[2]);
+}
+
+function fightDragon() {
+  console.log("Fighting Dragon.");
+}
+
+function buyHealth() {}
+
+function buyWeapon() {}
+
+function fightSlime() {}
+
+function fightBeast() {}
+
 // function goTown() {
 //   button1.innerText = "Go to store";
 //   button2.innerText = "Go to cave";
@@ -84,18 +106,6 @@ function goStore() {
 //   button3.onclick = goTown;
 //   text.innerText = "You enter the store.";
 // }
-
-function goCave() {
-  console.log("Going to cave.");
-}
-
-function fightDragon() {
-  console.log("Fighting Dragon.");
-}
-
-function buyHealth() {}
-
-function buyWeapon() {}
 
 // initialize buttons
 //Use dot notation to set the onclick property of your button1 to the function reference of goStore.
