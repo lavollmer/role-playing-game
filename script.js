@@ -77,7 +77,13 @@ function fightDragon() {
   console.log("Fighting Dragon.");
 }
 
-function buyHealth() {}
+//way to add or subtract from a variable called compound assignment
+function buyHealth() {
+  gold -= 10;
+  health += 10;
+  goldText.innerText = gold;
+  healthText.innerText = health;
+}
 
 function buyWeapon() {}
 
