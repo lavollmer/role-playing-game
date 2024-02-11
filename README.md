@@ -6,6 +6,12 @@ This project was created using a freeCodeCamp tutorial to create a role playing 
 
 ## Table of Contents
 
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [TechStack] (#techstack)
+- [Credits] (#credits)
+
 ## Tech Stack
 
 The following technology was used in this project:
