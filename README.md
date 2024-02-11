@@ -12,6 +12,12 @@ This project was created using a freeCodeCamp tutorial to create a role playing 
 - [TechStack] (#techstack)
 - [Credits] (#credits)
 
+## Introduction
+
+## Installation
+
+## Usage
+
 ## Tech Stack
 
 The following technology was used in this project:
