@@ -93,7 +93,9 @@ function goCave() {
   update(locations[2]);
 }
 
-function goFight() {}
+function goFight() {
+  update(locations[3]);
+}
 
 //way to add or subtract from a variable called compound assignment
 //buyHealth function uses an if statement
