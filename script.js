@@ -87,10 +87,6 @@ function goCave() {
   update(locations[2]);
 }
 
-function fightDragon() {
-  console.log("Fighting Dragon.");
-}
-
 function goFight() {}
 
 //way to add or subtract from a variable called compound assignment
@@ -138,9 +134,20 @@ function sellWeapon() {
   }
 }
 
-function fightSlime() {}
+function fightSlime() {
+  fighting = 0;
+  goFight();
+}
 
-function fightBeast() {}
+function fightBeast() {
+  fighting = 1;
+  goFight();
+}
+
+function fightDragon() {
+  fighting = 2;
+  goFight();
+}
 
 // function goTown() {
 //   button1.innerText = "Go to store";
