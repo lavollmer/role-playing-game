@@ -30,6 +30,12 @@ const weapons = [
   { name: "sword", power: 100 },
 ];
 
+const monsters = [
+  { health: 15, name: "slime", level: 2 },
+  { name: "fanged beast", level: 8, health: 60 },
+  { name: "dragon", level: 20, health: 300 },
+];
+
 //Arrays can store any data type. Objects are similar to arrays, but with a few differences. One difference is that objects use properties, or keys, to access and modify data.
 const locations = [
   {
@@ -85,6 +91,8 @@ function fightDragon() {
   console.log("Fighting Dragon.");
 }
 
+function goFight() {}
+
 //way to add or subtract from a variable called compound assignment
 //buyHealth function uses an if statement
 function buyHealth() {
@@ -125,6 +133,8 @@ function sellWeapon() {
     let currentWeapon = inventory.shift();
     text.innerText = "You sold a " + currentWeapon + ".";
     text.innerText += " In your inventory you have: " + inventory;
+  } else {
+    text.innerText = "Don't sell your only weapon!";
   }
 }
 
