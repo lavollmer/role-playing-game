@@ -61,6 +61,12 @@ const locations = [
     "button functions": [fightSlime, fightBeast, goTown],
     text: "You enter the cave. You see some monsters.",
   },
+  {
+    name: "fight",
+    "button text": ["Attack", "Dodge", "Run"],
+    "button functions": [attack, dodge, goTown],
+    text: "You are fighting a monster.",
+  },
 ];
 
 function update(location) {
@@ -178,3 +184,7 @@ button2.onclick = goCave;
 button3.onclick = fightDragon;
 
 function update(location) {}
+
+function attack() {}
+
+function dodge() {}
