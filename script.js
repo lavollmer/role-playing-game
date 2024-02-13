@@ -95,6 +95,10 @@ function goCave() {
 
 function goFight() {
   update(locations[3]);
+  monsterHealth = monsters[fighting].health;
+  monsterName.innerText = monsters[fighting].name;
+  monsterHealthText.innerText = monsterHealth;
+  monsterStats.style.display = "block";
 }
 
 //way to add or subtract from a variable called compound assignment
