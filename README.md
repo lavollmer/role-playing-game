@@ -14,6 +14,8 @@ This project was created using a freeCodeCamp tutorial to create a role playing 
 
 ## Introduction
 
+This game was created using HTML, JavaScript and CSS.
+
 ## Installation
 
 ## Usage
