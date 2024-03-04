@@ -240,6 +240,10 @@ function attack() {
   } else {
     defeatMonster();
   }
+
+  if (Math.random() <= 0.1) {
+    text.innerText += " Your " + inventory.pop() + " breaks.";
+  }
 }
 
 function getMonsterAttackValue(level) {
@@ -251,7 +255,7 @@ function getMonsterAttackValue(level) {
 }
 
 function isMonsterHit() {
-  return Math.random() > 0.2;
+  return Math.random() > 0.2 || health < 20;
 }
 
 function dodge() {
