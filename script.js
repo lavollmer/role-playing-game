@@ -223,6 +223,8 @@ function attack() {
   if (isMonsterHit()) {
     monsterHealth -=
       weapons[currentWeapon].power + Math.floor(Math.random() * xp) + 1;
+  } else {
+    text.innerText += " You miss.";
   }
 
   healthText.innerText = health;
@@ -246,6 +248,10 @@ function getMonsterAttackValue(level) {
   console.log(hit);
   //returns hit if greater than zero otherwise return zero
   return hit > 0 ? hit : 0;
+}
+
+function isMonsterHit() {
+  return Math.random() > 0.2;
 }
 
 function dodge() {
