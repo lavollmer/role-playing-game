@@ -7,18 +7,12 @@ This project was created using a freeCodeCamp tutorial to create a role playing 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
 - [TechStack] (#techstack)
 - [Credits] (#credits)
 
 ## Introduction
 
 This game was created using HTML, JavaScript and CSS.
-
-## Installation
-
-## Usage
 
 ## Tech Stack
 
@@ -30,7 +24,7 @@ The following technology was used in this project:
 
 ## Credits
 
-This project was done using a freeCodeCamp tutorial.
+This project was done using a freeCodeCamp tutorial "Dragon Repeller".
 
 ## License
 
