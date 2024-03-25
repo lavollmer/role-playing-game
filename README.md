@@ -21,6 +21,7 @@ The following technology was used in this project:
 - HTML
 - CSS
 - JavaScript
+- Game Design
 
 ## Credits
 
